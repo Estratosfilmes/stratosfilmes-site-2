@@ -2,9 +2,9 @@
   "items": [
     {
       "title": "Famigerada",
-      "poster": "",
-      "slate": "Longa-metragem / 2027",
       "status": "Em desenvolvimento",
+      "poster": "https://res.cloudinary.com/w9lqmhjv/image/upload/v1789756703/grok-image-bfc111ba-434f-4cc6-a13b-c761b9e92bf8.jpg",
+      "slate": "Longa-metragem / 2027",
       "synopsis": "Vó Amélia, uma mulher negra criada em Goiás, cresceu ouvindo promessas de um futuro repleto de carros voadores e viagens à lua. No entanto, viu essas expectativas serem ofuscadas por uma geração obcecada por telas de celular.",
       "ficha": "",
       "assistir": [],
@@ -27,9 +27,9 @@
     },
     {
       "title": "A Tela",
-      "poster": "",
-      "slate": "Curta-metragem / 2025",
       "status": "Em Distribuição",
+      "poster": "https://res.cloudinary.com/w9lqmhjv/image/upload/v1789756791/atela_impressa%CC%83o_comprimido.png",
+      "slate": "Curta-metragem / 2025",
       "synopsis": "Martinha pendura um quadro de dez mil reais na parede da casa simples onde vive com a avó. O gesto inicia uma jornada íntima sobre arte, desejo e o direito de querer tudo, sendo uma mulher negra.",
       "ficha": "Dirigido e Escrito por  | Gabriel Newton\nUma Produção | Estratosfilmes\n\nCom\nMartinha | Samara Biankka\nRegiane | Renata Caetano\nLuana | Sá Ribeiro\nMelissa | Luísa Guimarães\nMaria | Wanessa Nunes Moura Souza\nBeatriz | Alê Alves \nJoãozinho | Victor Vinícius\nAluna | Júlia Viviam\nDona Rosana | Rosana Silva \n\nProdução Executiva | Nivia Neves e Wilma Morais  \nAssistente de Direção | Deivid Mendonça\nProdutor de Elenco | Victor Vinícius\nPreparador de Elenco | Deivid Mendonça\nMontagem | Thomaz Deboa\n\nDireção de Produção | Sildênia Santos\nProdução de Locação | Lara Bezerra\nAssistente Administrativa | Kacyana Rodrigues\nAssistente de Produção | Barbara Santana\nEstagiária de Produção | Hingred Guimarães  \n\nDireção de Arte | Wilma Morais\nMaquiadora | Paloma Santos\nFigurinista | Oriana Moreira Lima\nAssistente de Arte e Artista Plástico | Alfa Ambrósio\nProdutora de Arte e de Objetos | Lara Bezerra\nContrarregra | Marinho Júnior e Adrielly Campos\nEstagiária de Arte | Thaynara Lopes \n\nDireção de Fotografia | Antônio H. Queiroz\n1° Assistente de Câmera | Leo Rocha\n2° Assistente de Câmera | Bruna Chamelet\nMaquinista | Clara Idioriê\nEletricista | Vinicius Nascimento\n\nSom Direto | Naja Sodré\nMicrofonista | Manu Rodrigues\nFoleys |  NAUFO UEG, Núcleo audiovisual de produção de foleys, João Pedro Pires, Hugo de Queirão\nEdição de som e diálogos | Matheus Pereira e Felipe Morais \nMixagem | Matheus Pereira e Thais Oliveira\nMúsica Original | Arlam Júnior\nMúsica da Tela de Créditos | Arlam Júnior, Jimy Ribeiro e Vitor Karrijo\nFinalização | Setup Filmes \nConformação | Felipe Moreira\nColor grading |  Antonio H. Queiroz\nDesign Créditos | Michael Santos\n\nMaking Of - Mayara Varalho e Yaya Nascimento\nFotógrafo Still - Antonio H. Queiroz e Gabriel Newton\nAssessoria de Imprensa e Criação e Manutenção de Redes Sociais | Stefanny Pina\nAcessibilidade | Gilberto Toledo Teixeira\n\nFiguração\nAmanda Maria de Sousa Romeiro\nArthur Nogueira Santos\nCarlos Henrique Lourenço Maia\nCauã Gustavo Alves Pereira\nDenise Francisca dos Santos\nDeuzalina Barbosa da Silva \nElcione Moraes Silva \nEmilia Hideko Kamida\nJaqueline Alves de Oliveira\nJhonatan da Silva Rocha\nJoão Felício dos Santos Neto \nJulia Andrade dos Santos \nLucilene Alves Sardinha\nOnezio de Castro e Silva\nRosana Silva \nWesley Modesto de Sousa \n\nMotorista Van \nWesley Evangelista dos Santos \nGleber Evangelista dos Santos \nInfraestrutura | Freire Produções Culturais\nCatering | Carmino Salvador de Mattos Júnior \n\nAgradecimentos\nArt Space Galeria de Arte\nDaniel Calil\nDaniel Newman Neri Neves\nCamila Nunes\nColetivo Centopeia\nDiego Ferreira da Silva\nDina Guimarães\nFabrício Rosa\nFelipe Souza\nGledson Ramalho Costa\nGlória Maria da Silva Moreira Lima\nIsabela Straiotto\nJanine Mattos\nJarleo Barbosa\nKleber Junior da Silva\nLara Lopes\nLidiana Reis\nLucas Daniel\nLucilene Alves Sardinha\nManoel Santana Neves\nMarcelo Costa\nMaria Aparecida de Morais Oliveira\nMaria da Piedade\nMatheus Medeiros\nNaya Violeta\nOlivia Silva Moreira Lima\nRede Metropolitana de Transportes Coletivos Goiânia (RMTC)\nReginaldo Rodrigues de Oliveira\nRanieri de Oliveira\nRosana Silva\nThemys Barbosa Arruda Ribeiro\nThiago de Moura Malaquias\nUniversidade Federal de Goiás (EMAC)\n\nFinanciamento\nEDITAL No 3/2023 - LEI PAULO GUSTAVO - PRODUÇÃO CURTA-METRAGEM, OBRA SERIADA E \nTELEFILMES FICÇÃO OU ANIMAÇÃO",
       "assistir": [],
@@ -47,14 +47,16 @@
           "info": "Prêmio de Melhor Curta-metragem - Eleito pelo júri técnico - Mostra Fronteiras Imaginárias"
         }
       ],
-      "gallery": [],
+      "gallery": [
+        "https://res.cloudinary.com/w9lqmhjv/image/upload/v1789756929/_MG_3349.jpg"
+      ],
       "trailer": "https://youtu.be/YymuFxtRrfI?si=c06e8MiCoRFDsj0w"
     },
     {
       "title": "Sal a Gosto",
+      "status": "Em Exibição (TV Brasil/TV UFG)",
       "poster": "",
       "slate": "Série de Ficção - 10 episódios / 2024",
-      "status": "Em Exibição (TV Brasil/TV UFG)",
       "synopsis": "Sal a Gosto é uma série de ficção com dez episódios de vinte e seis minutos onde acompanhamos a história da família Freitas: Tânia, Rogério, Laís e Alisson. Essa família negra de periferia tira seu sustento do restaurante montado na área da casa. Planejando passar a virada do ano de 2019 para 2020 em Goiânia, Laís não esperava enfrentar a falência do restaurante, o divórcio dos pais, a possível chegada inesperada de um sobrinho e a pandemia do novo coronavírus. Em meio a tantos desafios, apenas a união será capaz de ajudar essa família a superar as adversidades da vida.",
       "ficha": "Em memória\nAdriana Rodrigues\n\nElenco Principal\nLaís — Bibi Magalhães\nAlisson — Victor Vinícius\nTânia — Valéria Vieira\nRogério — Mauri de Castro\nDoninho — Mateus Lemos\nBastiana — Sá Ribeiro\nNaty — Nayara Tavares\nRubens — Vinícius Queiroz\n\nEquipe Técnica\n\nCriação, Roteiro e Direção — Gabriel Newton\n\nExecutiva\nProdução e Produção Executiva — Micael Bispo\nCoordenação Executiva — Nivia Neves\n\nAssistente de Roteiro — Deivid Mendonça\n\nDireção de Fotografia — Antônio H. Queiroz\n\nDireção de Arte — Wilma Morais\n\n1º Assistente de Direção \nFlávia Ferreira\nLarissa Fernandes\nDiego Capdeville\n\n2º Assistente de Direção e Instrutora de Elenco Secundário — Paula Pereira\n\nContinuísta — Vanessa Goveia\n\nDireção de Produção — Cecília Brito\n\nMontagem — Thomaz Deboa\n\nSom\nSom Direto — Naja Sodré\nMicrofonista — Guilherme Nogueira\nEdição de Som e Mixagem — Thaís Rodrigues\nTrilha Original — Arlam Júnior\n\nElenco\nDireção de Elenco — Kassio Pires\nPreparação de Elenco — Deivid Mendonça\n\nPós-produção\nColor Grading e Finalização — Antônio H. Queiroz\n\nFotografia\n1º Assistente de Câmera — Bruna Chamelet\n2ª Operadora de Câmera — Mayara Varalho\n2º Assistente de Câmera — Daniel Lopes\n1º Assistente de Câmera Extra — Hudson Cândido\nOperador de Drone — Martone Martins\n\nSet\nPlatô — Thoti dos Santos\n\nCaracterização\nMaquiagem e Caracterização — Paloma Santos\n\nFigurinistas \nPaula Mauri\nWendell Thieres\n\nAssistentes de Figurino \nPatrícia Luiza\nCéu Barbosa\n\nArte\nAssistente de Arte — Carolina Mendes\nProdutora de Arte — Adrielly Campos\nProdutor de Objetos — Dionatan Barroso\nCenógrafo — Marinho Júnior\n\nElétrica e Maquinária \nEletricista e Maquinista \nThiago Nicolas (Grandão) \nEspanhol\n\nAssistente de Elétrica e Maquinária — Raquel Otto\n\nProdução\nLogger — João Paulo Cândido\nAssistente de Produção Executiva — Cecília Brito\nAssistente Administrativa — Gisela Maria\n1º Assistente de Produção — Renata Schelb\n2º Assistentes de Produção \nMatheus Silva\nSildênia Santos\n\n3º Assistente de Produção — Felipe Brito\nProdução de Locação — Victória Magalhães\n\nAssistente de Direção \nAnálise Técnica Inicial — Fernanda Rios\nContrarregra — Renan Garoto\nAssistente de Maquiagem, Caracterização e Cabeleireiro — Jader Magalhães\n\nProdução de Alimentos de Cena — Stefanny Pina\n\nEquipe Flô Projetos — Gilberto Vaz\n\nDesign \nDesigner Gráfica — Alanna Victoria\n\nAcessibilidade — ETC Filmes\n\nElenco Secundário e Apoio\nTia Lúcia — Adriana Brito\nAlan — Allan Jacinto Santana\nMaria — Lana Colmanetti\nTatiana — Daya Laryssa\nRayane — Jéssica Dias\nValentina — Gabi Abreu\nSenhora de Bengala — Gisela Maria\nRomildo / Bancário — Norval Berbari\nCris — Lauane Bracho\nRoberto — Luis Fernando Gomes\nDona Maria — Renata Caetano\nCiclista do Roubo — Milla Suzart\nGustavo — Geovani Santos\nMuriçoca — Victor Kerk\nJarleoson — Jarleo Barbosa\nMaisa — Larissa Sisterolli\nBarbeiro Mariozinho — Rui Bordalo\nCasal Restaurante — Naila Souza\nCasal Restaurante — Iêda Figueiró\nCliente Restaurante 1 — Izza Monteiro\nCliente Restaurante 2 — Alinne Vieira\nCliente Restaurante 3 — Matheus Silva\nEncanadora Santana — Izabela Nascente\nHomem Negacionista 1 — Kleber Alves\nHomem Negacionista 2 — Marcelo Santoro\nPaciente Laís — João Paulo Falcão\nSenhora Máscara — Zora\nApresentadora Jornal — Paula Pereira\nCliente Irmãos Hortaliça — Rosana Silva\n\nDublês de Mãos\nNatália Ribeiro\nRaquel Otto\nThiago Nicolas\n\nFinanciamento\nANCINE — BRDE — FSA",
       "assistir": [],
@@ -64,9 +66,9 @@
     },
     {
       "title": "Dias de Luta",
+      "status": "Em exibição",
       "poster": "",
       "slate": "Série Documentário / 2025",
-      "status": "Em exibição",
       "synopsis": "Datas comemorativas existem para que possamos lembrar. Batalhas, guerras, leis, aniversários, lutas. Em cinco episódios documentais, Dias de Luta mergulha em datas que moldaram a história do Brasil e refletem diretamente na trajetória da população negra. Da assinatura da Lei Áurea ao Dia do Samba, a série propõe uma reflexão sobre o impacto desses marcos históricos no contexto pós-pandemia de Covid-19 e questiona: quantos outros dias de luta ainda serão necessários para construir um futuro mais justo?",
       "ficha": "Entrevistados\nAndré Novais de Oliveira\nCamila Nunes\nÉrika Hilton\nIvanir dos Santos\nKeilla Villa Flor\nLarissa Fernandes\nNaya Violeta\nNutyelly Cena\nRaphael Gustavo\nRosana Silva Neri Neves\n\nEquipe Técnica\n\nCriação, Roteiro e Direção\nGabriel Newton\n\nProdução e Produção Executiva\nMicael Bispo\nNivia Neves\n\nDireção de Fotografia — Antônio H. Queiroz\n\nDireção de Arte — Wilma Morais\n\nDireção de Produção — Tamara Benetti \n\nMontagem — Gabriel Newton\n\nPesquisa — Deivid Mendonça\n\nAssistente de Direção — Nivia Neves\n\nPós de Som — Thaís Rodrigues\n\nFigurinista e Caracterização — Wilma Morais\n\nProdução Musical — Guilherme Nogueira\n\nIlustração — Daniel Newman\n\nColor Grading e Finalização — Antônio H. Queiroz\n\nAssistente de Edição — Gisela Maria\n\nAssistente de Set — Daniel Newman\n\nAssistente Técnico — Cecília Brito\n\nAcessibilidade — ETC Filmes\n\nAdvocacia\nDiego Medeiros\nDrummond & Neumayr Advocacia\n\nContabilidade — Contabilizei Tecnologia\n\nEquipamentos — Setup Filmes\n\nProdução\nEstratosfilmes\nKinoptera\n\nFinanciamento\nANCINE — BRDE — FSA",
       "assistir": [],
@@ -76,9 +78,9 @@
     },
     {
       "title": "Cavaleiros da Vergonha",
+      "status": "Em distribuição",
       "poster": "",
       "slate": "Curta-metragem / 2018",
-      "status": "Em distribuição",
       "synopsis": "Um sofá, tapete antigo e sujo, uma estante alta com televisão, alguns livros jogados e uma cortina bege. A sala sem sal de Walter se transforma em uma discoteca quando ele decide que, depois de mais de 40 anos neste planeta, cansou de se sentir sozinho.\n\nÉ lá onde diversas pessoas decidem que, em vez de esperarem o “fim do mundo” apreensivas e temerosas, não seria melhor dançar como se o mundo estivesse acabando?",
       "ficha": "Elenco\nBrisa | Nivia Neves\nOsso | Victor Vinícius\n\nFicha técnica\nDireção e roteiro | Gabriel Newton\nProdução executiva | Micael Bispo\nDireção de produção | Yasmin Lima\nDireção de fotografia | Antônio H. Queiroz\nDireção de arte | Wilma Morais\nTécnica de som | Thaís Oliveira\nMontagem | Thomaz Magalhães\n1ª assistência de direção | Flávia Ferreira\nAssistência de produção executiva | Rafael Henrique\nAssistência administrativa da Estratosfilmes | Nivia Neves\nPrestação de contas | Cecília Brito e Nivia Neves\nProdução de elenco | Taynara Ferreira\nAssistência de produção | Larissa Bueno\nAssistência de câmera | Léo Rocha\nStill | Sidi Leite\nProdução de objetos | Dionatan Barroso\nMaquiagem | Ana Simiema\nAssistência de maquiagem | Mikael Siqueira\nMicrofonista | Thiago Rodrigues\nEdição e mixagem de som | Thaís Oliveira\nColor grading | Antônio H. Queiroz\nFinalização | Thomaz Magalhães\nIdentidade visual | Gabriel Newton\nCaptação de recursos | Arte Brasil Projetos Socioculturais e Other Side Promoções e Eventos\nAssessoria contábil | Zittcon Contabilidade\nAssistência de set | Daniel Lopes\nEquipe NAUFO – UEG | Mikaela Pasa, Hal Widson, Leonardo Calixto, Eduardo Vieira e Michel Campos\nCoordenação NAUFO – UEG | Thaís Oliveira\nCozinheiras | Claudia Valadão, Braisinha Valadão e Leontina Lopes\nMotoristas da van | Willian N. Pereira e Rubens Gomes\nMotorista do caminhão | Otthon Borges\nSegurança | Antônio Jorge Pereira\n\nApoio | Setup Filmes\nPatrocínio | Catral\nDistribuição | Kinoptera\n\nFinanciamento\nLei Goyazes",
       "assistir": [],
@@ -88,9 +90,9 @@
     },
     {
       "title": "Me Balance Suavemente, Me Balance Agora",
+      "status": "Em distribuição",
       "poster": "",
       "slate": "Curta-metragem / 2018",
-      "status": "Em distribuição",
       "synopsis": "Júlia encontra seu primeiro amor.",
       "ficha": "Elenco\nJúlia: Shayene Karla\nLaura: Juliana Alburquerque\n\nFicha técnica\nDireção e roteiro: Gabriel Newton\nProdução executiva: Micael Bispo\nDireção de produção: Tamara Benetti\nDireção de fotografia: Antônio H. Queiroz\nDireção de arte: Wilma Morais\nTécnico de som: Guilherme Nogueira\nMontagem: Thomaz Magalhães\nMaquiagem: Ana Simiema\nEdição e mixagem de som: Thaís Oliveira\n1ª assistência de direção: Flávia Ferreira\nContinuísta: Victor Vinícius\nAssistência de produção executiva: Rafael Henrique\nAssistência administrativa da Estratosfilmes: Nivia Neves\nProdução de elenco: Taynara Ferreira\n1ª assistência de produção: Jade Medeiros\n2ª assistência de produção: Milena Ribeiro\n1ª assistência de câmera: Leo Rocha\n2ª assistência de câmera: Matheus Medeiros\n1ª assistência de arte: Taynara Ferreira\n2ª assistência de arte: Thalita Goulart\nMicrofonistas: Elder Patrick e Larissa Fernandes\nMaking of: Rayane Richele\nColor grading: Antônio H. Queiroz\nMaquinista e eletricista-chefe: Tothi Cardoso\nMaquinista e eletricista: Pedrinho Fiel\nAssistência de maquinaria e elétrica: Gleig de Sousa\nIdentidade visual: Gabriel Newton\nPrestação de contas: Cecília Brito\nDistribuição para festivais: Érico José\nCozinha: Edna Benetti, Eduardo Benetti e Thiago Benetti\n\nProdução: \nEstratosfilmes e Setup Filmes\n\nComercialização / financiamento\nAprovado na Lei Goyazes de 2015.",
       "assistir": [
@@ -118,9 +120,9 @@
     },
     {
       "title": "Um Garoto Chamado Suzy",
+      "status": "Em distribuição",
       "poster": "",
       "slate": "Curta-metragem / 2017",
-      "status": "Em distribuição",
       "synopsis": "Suzy é um cara durão, mas precisa encontrar o homem que lhe deu esse nome.",
       "ficha": "Elenco\nSuzy — Allan Santana\nPai — Liomar Veloso\nMãe — Rita Alves\nCantora — Letícia Lyns\nJosé — Rodrigo Jubé\nSeu Mário — Rubens Lázaro\nHomem de Preto — Boanerges Filho\nFabiana — Nivia Neves\nMulher do Quarto — Camila Borges\nAtendente do Cartório — Elinaldo Afonso\n\nFicha Técnica\nRoteiro: Jessica Gregorio, Gabriel Newton, Wilma Morais e Felipe Souza\nDireção: Gabriel Newton e Felipe Souza\nProdução Executiva: Micael Bispo\nDireção de Produção: Luana Otto\nDireção de Fotografia: Kaco Olímpio\nDireção de Arte: Wilma Morais\nTécnica de Som: Guilherme Nogueira\nMontagem: Thomaz Magalhães\n1º Assistente de Direção: Tothi Cardoso\n2º Assistente de Direção: Flávia Ferreira\nContinuísta: Flávia Ferreira\n1º Assistente de Câmera: Larry Sullivan\n2º Assistente de Câmera: Dan Pimentel\nLogger: Dan Pimentel\nMaquinista Chefe: Chico Macêdo\nEletricista Chefe: Elinaldo Afonso (\"Revinho\")\nAssistente de Maquinaria: Pedrinho (\"Calibre\")\nAssistente de Elétrica: Rodrigo (\"Fininho\")\nProdução de Arte: Débora Corrêa\nAssistente de Arte: Carol Matos\nFigurino: Carol Breviglieri\nCabelo e Maquiagem: Ana Simiema\nAssistente de Figurino: Dan Lemos\nAssistente de Maquiagem: Paloma Santos\nEstagiária de Produção e Maquiagem: Roberta de Andrade\nPós de Som: Guilherme Nogueira\nMicrofonista: Nara Sodré\nPlatô: Bruno Garajau\nAssistente de Produção Executiva: Rafael Henrique\nAssistente de Produção: Larissa Bueno\nAssistente de Produção: Raquel Otto\nProdutora de Elenco: Taynara Borges\nProdutora de Locação: Renata Garcia\nMaking Of: Thais Robaina\nStill: Vitória Melo\nCatering: Inêz Gonçalves\nContrarregra: Matheus Medeiros\nIdentidade Visual: Gabriel Godinho\nMotorista do Caminhão: Otthon\nMotorista da Van: Willian Teixeira\nChefe de Segurança: Adriano\nPintor: Eduardo\n\nCaptação de Recursos: Arte Brasil e Bridge Eventos\n\nFinanciamento \nLei Goyazes 2015",
       "assistir": [],
@@ -130,9 +132,9 @@
     },
     {
       "title": "Quando Você Está Aqui",
+      "status": "Em distribuição",
       "poster": "",
       "slate": "Curta-metragem / 2017",
-      "status": "Em distribuição",
       "synopsis": "\"Quando Você Está Aqui\" é sobre solidão.\n\nÉ um jogo entre ausência e presença.\n\nÉ sobre amar o ilusório.\n\nÉ buscar preencher cada espaço vazio no peito, cada canto da casa, com a memória de quem insiste em sumir e reaparecer sem pedir licença.\n\nÉ sobre Miguel.\n\nTambém sobre Lisa.\n\nSobre saudade.\n\nSobre aquilo que permanece mesmo quando alguém já não está.",
       "ficha": "Elenco\nLisa — Carol Schmidt\nMiguel — Yago Alvim\n\nFicha Técnica\nRoteiro e Direção: Victor Vinícius\nProdução Executiva: Micael Bispo\nDireção de Produção: Tamara Benetti\nDireção de Fotografia: Antônio H. Queiroz\nDireção de Arte: Wilma Morais\nSom Direto e Pós de Som: Thaís Oliveira\nAssistência de Direção e Montagem: Gabriel Newton\nProdução de Elenco e Assistência de Produção: Taynara Borges\nAssistência de Produção: Jade Medeiros\nProdução de Arte: Débora Corrêa\nCabelo e Figurino: Ana Simiema\nAssistência de Produção Executiva: Rafael Henrique\nFinalização: Thomaz Magalhães\nFestivais\n\nNão havia festivais cadastrados no site.\n\nPremiações\n\nNão havia premiações cadastradas no site.\n\nComercialização / financiamento\nLei Goyazes 2015",
       "assistir": [],
@@ -142,9 +144,9 @@
     },
     {
       "title": "Horizontes",
+      "status": "Em distribuição",
       "poster": "",
       "slate": "Curta-metragem /  2016",
-      "status": "Em distribuição",
       "synopsis": "Jonas é um homem que passa a maior parte do seu tempo dentro de um escritório; ele não vive. Sua namorada, Beatriz, é responsável por ser seus olhos. É através do telefone que ela compartilha sua vida com ele e, ao final de cada ligação, descreve um horizonte, que Jonas desenha. É a única forma que ele encontra de enxergar o mundo além das paredes do escritório.",
       "ficha": "Direção — Gabriel Newton\nRoteiro — Gabriel Newton\n\nProdução\nEstratosfilmes\nSetup Filmes\n\nGênero — Ficção\nDuração — 15 minutos\nAno — 2016\nClassificação Indicativa — Livre\n\nElenco\nCaco Rodrigues — Jonas\nVerissa Noleto — Beatriz\nNayara Tavares — Carol\nJanaína Jakeline\n\nFicha Técnica\nDireção e Roteiro — Gabriel Newton\nProdução Executiva — Micael Bispo\nDireção de Produção — Tamara Benetti\nDireção de Fotografia — Antônio Henrique Queiroz\nDireção de Arte — Débora Corrêa\nTécnico de Som — Vasconcelos Neto\nMontagem — Ricardo Alvez\nEdição de Som — Vasconcelos Neto\n1º Assistente de Direção — Matheus Medeiros\n2º Assistente de Direção — Victor Vinícius\nProdutora de Locação — Yasmin Lima\nPlatô — Micael Bispo\nAssistente de Produção — Jessica Gregório\nAssistente de Produção Executiva — Jessica Gregório\nAssistentes de Câmera — Ricardo Alvez e Mayara Varalho\nContinuísta — Vanessa Goveia\nChefe de Maquinaria e Elétrica — Elinaldo Afonso (Revinho)\nAssistente de Maquinaria e Elétrica — Leandro Rodrigues\nCatering — Lidianne Porto\nAssistente de Arte — Kássia Oliveira\nProdução de Arte — Wilma Morais\nFigurino e Maquiagem — Thalita Goulart\nColorização e Finalização — Antônio H. Queiroz\nMaking Of — Lucas Peixoto Ribeiro\nIdentidade Visual — Antônio H. Queiroz, Gabriel Newton e Matheus Medeiros\nIlustração do Material Gráfico — Vinícius Paiva\nDesenho Artístico — Lorena D'Arc e Nivia Helenne\nStoryboard — Lorena D'Arc\nAssistente de Set — Guilherme Nélio\nCozinheiro — Thiago Benetti\n\nFiguração\nAliny Tristão\nGustavo Dutra\nGustavo Moura\nVictor Vinícius\nGuilherme Nélio\nGustavo Ferreira\nJessica Gregorio\nKássia Oliveira\nLeandro Rodrigues\nLucas Peixoto Ribeiro\nThalita Goulart\nFlávia Ferreira\nGabriel Newton\nNivia Helenne\n\nFinanciamento\nFAC GO — SEDUCE",
       "assistir": [],
@@ -154,9 +156,9 @@
     },
     {
       "title": "Maria Mole",
+      "status": "Em distribuição",
       "poster": "",
       "slate": "Curta-metragem / 2014",
-      "status": "Em distribuição",
       "synopsis": "Maria vai longe para comprar o doce de que tanto gosta. Em mais uma tarde que parecia comum, ela enfrentará o mundo cruel que ainda não conhece.",
       "ficha": "Direção  — Gabriel Newton\nRoteiro — Gabriel Newton\n\nProdução\nEstratosfilmes\nAgnosia Filmes\nDisfarce: Arte Cinematográfica\n\nGênero — Ficção\nDuração — 3 minutos\nAno — 2014\nClassificação Indicativa — 10 anos\n\nElenco\nShayene Karla\nThiago Candido\n\nFicha Técnica\nDireção, Roteiro, Fotografia, Edição e Finalização — Gabriel Newton\nDireção de Arte e Produção — Wilma Morais\nAssistente de Direção e Som Direto — Matheus Medeiros\nAssistente de Arte — Andreia Rios\n\nFinanciamento\nEstratosfilmes\nAgnosia Filmes\nDisfarce: Arte Cinematográfica",
       "assistir": [],
@@ -179,9 +181,9 @@
     },
     {
       "title": "Viúva Negra",
+      "status": "Em distribuição",
       "poster": "",
       "slate": "Curta-metragem / 2017",
-      "status": "Em distribuição",
       "synopsis": "Olívia é uma mulher jovem, sensual e misteriosa que guarda um grande segredo dos homens com quem se envolve. Fazendo jus ao título de \"Viúva Negra\", nunca se apegou emocionalmente a nenhuma de suas vítimas, até encontrar Miguel.\n\nOlívia cederá à tentação do amor ou não resistirá à sua própria natureza?",
       "ficha": "Direção — Vanessa Goveia\n\nRoteiro — Vanessa Goveia e Gabriel Newton\n\nProdução — Estratosfilmes\n\nGênero — Ficção\nDuração — 15 minutos\nLançamento — 2017\nClassificação indicativa — 16 anos\n\nElenco\nOlívia — Débora Carolyne\nMiguel — Andreane Lima\nSandro Freitas\nIuri Vaz\nTothi Cardoso\nAlisson Borges\nRafael Henrique\nHelter Costa\n\nFicha Técnica\nArgumento — Vanessa Goveia\nRoteiro — Gabriel Newton e Vanessa Goveia\nDireção — Vanessa Goveia\nProdução Executiva — Micael Bispo\nDireção de Produção — Marcos Rogério\nDireção de Fotografia — Larry Sullivan\nDireção de Arte — Wilma Morais\nTécnica de Som — Thaís Oliveira\nMontagem: — Thomaz Magalhães\nAssistente de Direção — Gabriel Newton\nContinuísta — Victor Vinícius\nPreparador de Elenco — Caco Rodrigues\nCasting — Taynara Ferreira\n1º Assistente de Câmera — Antônio H. Queiroz\n2º Assistente de Câmera — Danilo Pimentel\nLogger — Danilo Pimentel\nMaquinista Chefe — Chico Macêdo\nEletricista Chefe — Elinaldo Afonso (Revinho)\nAssistentes de Maquinaria — Tharran Michel Granzotti do Carmo e Paulo Dhones\nAssistente de Elétrica — Pedro Assis\nProdução de Arte — Débora Corrêa\nAssistente de Arte — Matheus Medeiros\nFigurino e Maquiagem — Ana Simiema\nAssistente de Figurino e Maquiagem — Thalita Goulart\nColorização — Ricardo Alvez\nTrilha Original — Thiago Gobet\nPós de Som — Thaís Oliveira\nMicrofonista — Nara Sodré\nPlatô — Tamara Benetti\nAssistente de Produção Executiva — Victor Palhares\nAssistentes de Produção — Vivianne Pereira dos Santos e Layse Portil\nIdentidade Visual — Gabriel Godinho\nCozinheira — Dona Inês\nMotorista do Caminhão — Adalto Rodrigues da Silva\nSegurança — Ricardo de Araújo Ribeiro e Edvar Moraes Borges\nPintor — Eduardo\n\nFiguração\nRildo\nEvaldo Cavalcante\nFelipe Marra\nGionária Maria\nGuilherme Henrique\nÍtalo Augusto\nJosé Alfredo\nLayse Portil\nMikael Alves\nNivia Helenne\nTaynara Ferreira\n\nFinanciamento\nMINC - edital de Curta Afirmativo: Protagonismo de Cineastas afro-brasileiros",
       "assistir": [],
@@ -191,9 +193,9 @@
     },
     {
       "title": "Intocável",
+      "status": "Em distribuição",
       "poster": "",
       "slate": "Curta-metragem / 2017",
-      "status": "Em distribuição",
       "synopsis": "Sem nada a perder, um antigo criminoso vai atrás de quem causou o seu desastre.",
       "ficha": "Direção — Matheus Medeiros \nRoteiro — Matheus Medeiros\n\nProdução — Setup Filmes\nCoprodução — Estratosfilmes\n\nGênero — Ficção\nDuração — 15 minutos\nAno — 2017\nClassificação Indicativa — 10 anos\n\nElenco\nCaco Rodrigues\nLeopoldo Rodriguez\nMarcus Gouveia\nThaise Monteiro\n\n\nFicha Técnica\nRoteiro e Direção — Matheus Medeiros\nProdução Executiva — Micael Bispo\nDireção de Produção — Anna Karla\nDireção de Fotografia — Antônio H. Queiroz\nDireção de Arte — Débora Corrêa\nTécnico de Som — Thiago Camargo\nMontagem — Thomaz Magalhães\n1º Assistente de Direção — Gabriel Newton\n2º Assistente de Direção — Adan Sousa\nContinuísta — Victor Vinícius\n1º Assistente de Câmera — Thaís Robaina\n2º Assistente de Câmera — Leonardo Rocha\nMicrofonista — Guilherme Nogueira\nPós de Som — Thiago Camargo\nTrilha Original — Thiago Gobet\nAssistente de Produção — Wanessa Demétrio\nProdução Inicial — Henrique Borela\nAssistente de Produção Inicial — José Alfredo Rosendo Jr.\nProdutora de Elenco — Taynara Borges\nChefe de Maquinaria e Elétrica — Denir Calassara\nAssistentes de Maquinaria e Elétrica — Gustavo Frederico e Gleig de Souza\nMaquiagem — Carol Matos\nFigurino — Wilma Morais\nAssistente de Figurino — Carol Matos\nAssistente de Arte — Victor Palhares\nEfeitos Práticos — Felipe Souza\nColorização — Antônio H. Queiroz\nMaking Of — Vitória Melo\nIdentidade Visual — Gabriel Godinho\nCatering — Olivia\nCaptação de Recursos — Arte Brasil e Mito Projetos Socioculturais\n\nFinanciamento\nLei Goyazes",
       "assistir": [],
@@ -203,9 +205,9 @@
     },
     {
       "title": "Olfrygt ou o Medo de Acabar a Cerveja",
+      "status": "Em distribuição",
       "poster": "",
       "slate": "Curta-metragem / 2018",
-      "status": "Em distribuição",
       "synopsis": "Duas amigas chegam a uma festa para a qual não foram convidadas, mas elas ainda não sabem disso.",
       "ficha": "Direção — Gabriel Newton\n\nRoteiro — Gabriel Newton\n\nProdução — Estratosfilmes e Wilma Morais\n\nDuração — 15 minutos\nAno — 2018\nClassificação Indicativa — 14 anos\n\nElenco\n\nSandra — Laizia de Jesus\nAna — Natália Dantas\nCarlos — Rodrigo Ungarelli\nAlice — Verissa Noleto\nMulher Cyberpunk — Nayara Tavares\nMãe — Adriana Brito\nApresentador de TV\t — João Paulo Falcão\nMendigo — Sidi Leite\nCowboy — Luiz Fernando Gomes\nÍndio — José Guilherme\nMotorista — Mauro Gonçalves Borges\n\nFicha Técnica\nRoteiro e Direção — Gabriel Newton\nProdução — Wilma Morais\nProdução Executiva — Micael Bispo\nDireção de Produção — Tamara Benetti\nDireção de Fotografia — Antônio H. Queiroz\nDireção de Arte — Wilma Morais\nMontagem — Thomaz Magalhães\nTécnica de Som — Thaís Oliveira\nPreparação de Elenco — Deivid Rodrigues\nFigurino — Michely Ascari\nMaquiagem — Ana Simiema\nColorização — Antônio H. Queiroz\nTrilha Sonora — Thiago Rodrigues\nPós-produção de Som — Nara Sodré\nIdentidade Visual — Gabriel Godinho\n\nEstagiários\nAmanda Fraga\nTaynara Rezende\nAna Mendes\nRoberta Vieira\nErica Narayana\n\nCatering \nDona Maria\nGlaybson\nMaria Aparecida M. Oliveira\n\nSegurança — Rafael Carvalho\n\nFiguração\nAbraão Rocha\nAdriana Brito\nAlexandre Bernardes\nAmanda Fraga\nAna Mendes\nAnderson Fernandes\nCarlos Henrique\nDaniel Pereira\nDavi Gonçalves\nDiego Pereira\nElinaldo Afonso (Revinho)\nErick Silva\nFelipe Marra\nGabriel Godinho\nGuilherme Oliveira\nGustavo Ferreira\nJader Magalhães\nJoão Paulo Falcão\nJosé Guilherme\nJúlia Fernandes\nLaizia de Jesus\nLeonardo Rocha\nLorena D'Arc\nLuiz Fernando Gomes\nMaria Aparecida\nMatheus Medeiros\nMauro Gonçalves Borges\nMichely Ascari\nNatália Dantas\nNayara Tavares\nNivia Helenne\nPaulo Henrique\nRenata Garcia\nRodrigo Ungarelli\nSidi Leite\nTamara Benetti\nThaís Oliveira\nThalita Goulart\nThomaz Magalhães\nVerissa Noleto\nWenderson Bonfim Xavier\n\nFinanciamento",
       "assistir": [],
@@ -215,9 +217,9 @@
     },
     {
       "title": "Os Filmes de Cada Um",
+      "status": "Em distribuição",
       "poster": "",
       "slate": "Curta-metragem Documental / 2025",
-      "status": "Em distribuição",
       "synopsis": "Um documentário sobre o cinema produzido em Goiás a partir da perspectiva de diferentes realizadores. O filme reúne depoimentos que revelam como cada cineasta constrói sua relação com o audiovisual, suas referências, desafios e processos criativos, compondo um retrato coletivo da produção cinematográfica goiana.",
       "ficha": "",
       "assistir": [],
@@ -227,9 +229,9 @@
     },
     {
       "title": "Pontos Finais",
+      "status": "Em pós-produção",
       "poster": "",
       "slate": "Série / 2026",
-      "status": "Em pós-produção",
       "synopsis": "",
       "ficha": "",
       "assistir": [],
@@ -239,9 +241,9 @@
     },
     {
       "title": "Luzes na janela",
+      "status": "Em pós-produção",
       "poster": "",
       "slate": "Longa-metragem / 2026",
-      "status": "Em pós-produção",
       "synopsis": "",
       "ficha": "",
       "assistir": [],
