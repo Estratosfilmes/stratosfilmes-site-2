@@ -4,7 +4,7 @@
 
 backend:
   name: github
-  repo: SEU-USUARIO/SEU-REPO-NOVO
+  repo: Estratosfilmes/stratosfilmes-site-2
   branch: main
   base_url: https://sveltia-cms-auth.contato-3aa.workers.dev
 
