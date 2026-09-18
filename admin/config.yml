@@ -1,0 +1,102 @@
+###############################################################################
+#  PAINEL estratosfilmes — configuração do Sveltia CMS
+###############################################################################
+
+backend:
+  name: github
+  repo: SEU-USUARIO/SEU-REPO-NOVO
+  branch: main
+  base_url: https://sveltia-cms-auth.contato-3aa.workers.dev
+
+# Imagens agora vão para o CLOUDINARY (não pesam mais o repositório)
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: w9lqmhjv
+    api_key: '891746327125957'
+
+locale: pt
+
+collections:
+  # ---------------------------------------------------------------------------
+  - name: identidade
+    label: "Identidade e contato"
+    delete: false
+    files:
+      - name: site
+        label: "Logo, página inicial e contatos"
+        file: "data/site.json"
+        fields:
+          - { name: logo, label: "Logo (PNG com fundo transparente)", widget: image, required: false }
+          - { name: logo_size, label: "Tamanho da logo (altura em pixels)", widget: number, required: false, default: 110, value_type: int, min: 28, max: 200 }
+          - name: hero_mode
+            label: "Fundo da página inicial"
+            widget: select
+            default: "none"
+            options:
+              - { label: "Fundo claro (padrão)", value: "none" }
+              - { label: "Slideshow de frames", value: "slideshow" }
+              - { label: "Vídeo de fundo", value: "video" }
+          - name: hero_images
+            label: "Frames da página inicial (para o slideshow)"
+            widget: list
+            required: false
+            field: { name: image, label: "Frame", widget: image }
+          - { name: hero_video, label: "Vídeo de fundo (.mp4 curto e leve)", widget: file, required: false }
+          - { name: tagline, label: "Frase principal (topo do site)", widget: string }
+          - { name: lede, label: "Subtítulo (abaixo da frase)", widget: text }
+          - { name: email, label: "E-mail", widget: string }
+          - { name: phone, label: "Telefone", widget: string }
+          - { name: whatsapp, label: "Link do WhatsApp", widget: string, required: false }
+          - { name: instagram, label: "Link do Instagram", widget: string, required: false }
+          - { name: youtube, label: "Link do YouTube", widget: string, required: false }
+          - { name: vimeo, label: "Link do Vimeo", widget: string, required: false }
+          - { name: linkedin, label: "Link do LinkedIn", widget: string, required: false }
+          - { name: portfolio, label: "Link do PDF do portfólio", widget: string, required: false }
+
+  # ---------------------------------------------------------------------------
+  - name: filmes
+    label: "Projetos"
+    delete: false
+    files:
+      - name: lista
+        label: "Lista de projetos"
+        file: "data/films.json"
+        fields:
+          - name: items
+            label: "Projetos"
+            label_singular: "Projeto"
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { name: title, label: "Título", widget: string }
+              - { name: status, label: "Status", widget: string, required: false, hint: "Escreva 'Em desenvolvimento' para o projeto aparecer na seção de desenvolvimento. Outros valores (Em pós-produção, Em distribuição, Em exibição) aparecem na seção de produção." }
+              - { name: poster, label: "Imagem", widget: image, required: false, hint: "Produção: cartaz vertical (2:3). Em desenvolvimento: foto horizontal (paisagem)." }
+              - { name: slate, label: "Formato e ano", widget: string, required: false, hint: "Comece com Curta-metragem / Longa-metragem / Série para o filtro funcionar. Ex.: Longa-metragem / 2027" }
+              - { name: synopsis, label: "Sinopse", widget: text, required: false }
+              - { name: ficha, label: "Ficha técnica", widget: text, required: false, hint: "Cole o bloco de créditos — uma linha por pessoa, no formato 'Função: Nome'." }
+              - name: assistir
+                label: "Assistir online (curta ou episódios)"
+                label_singular: "Link"
+                widget: list
+                required: false
+                summary: "{{fields.titulo}}"
+                fields:
+                  - { name: titulo, label: "Título do link", widget: string }
+                  - { name: link, label: "Link (YouTube)", widget: string }
+              - name: festivais
+                label: "Festivais, prêmios e labs"
+                label_singular: "Item"
+                widget: list
+                required: false
+                summary: "{{fields.nome}}"
+                fields:
+                  - { name: nome, label: "Festival, prêmio ou lab", widget: string }
+                  - { name: info, label: "Detalhe", widget: string, required: false }
+              - name: gallery
+                label: "Galeria de fotos"
+                label_singular: "Foto"
+                widget: list
+                required: false
+                field: { name: image, label: "Foto", widget: image }
+              - { name: trailer, label: "Link do trailer", widget: string, required: false }

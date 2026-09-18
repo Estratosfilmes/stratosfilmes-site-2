@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>estratosfilmes — produtora audiovisual · Goiânia, GO</title>
+<meta name="description" content="Produtora audiovisual em Goiânia, Goiás. Ficção e documentário, do roteiro à pós-produção.">
+<meta property="og:title" content="estratosfilmes — produtora audiovisual">
+<meta property="og:description" content="Cinema feito no interior do Brasil. Goiânia, Goiás.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Libre+Caslon+Text:ital@0;1&family=Mulish:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#E9EDF0;--ink-2:#F5F8FA;--ink-3:#CAD5DC;--petrol:#124F6E;
+    --cyan:#186285;--paper:#12252F;--mist:#586E7A;--maxw:1200px;
+    --serif:'Libre Caslon Display',Georgia,serif;
+    --serif-t:'Libre Caslon Text',Georgia,serif;
+    --sans:'Mulish',system-ui,sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{background:var(--ink);color:var(--paper);font-family:var(--sans);font-weight:300;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  a{color:inherit;text-decoration:none}
+  ::selection{background:var(--petrol);color:#fff}
+  :focus-visible{outline:2px solid var(--petrol);outline-offset:3px;border-radius:2px}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 30px}
+  .eyebrow{font-family:var(--serif-t);font-style:italic;font-size:1.05rem;color:var(--cyan)}
+
+  .mark{width:26px;height:26px;color:var(--petrol);flex:none}
+  .wordmark{display:inline-flex;align-items:center;gap:11px;font-family:var(--serif);font-size:1.3rem;color:var(--petrol)}
+  .wordmark img{width:auto;display:block;height:50px}
+
+  nav{position:sticky;top:0;z-index:100;background:rgba(233,237,240,.82);backdrop-filter:blur(12px)}
+  .nav-in{display:flex;align-items:center;justify-content:space-between;min-height:88px;padding:12px 0}
+  .nav-links{display:flex;align-items:center;gap:4px;font-size:.94rem}
+  .nav-links a{color:var(--mist);transition:color .25s;padding:2px 6px}
+  .nav-links a:hover{color:var(--petrol)}
+  .nav-links .sep{color:var(--ink-3)}
+
+  .hero{position:relative;min-height:88vh;display:flex;align-items:center;overflow:hidden}
+  .hero-bg{position:absolute;inset:0;z-index:0;overflow:hidden;background:var(--ink)}
+  .hero-bg .slide,.hero-bg video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+  .hero-bg .slide{opacity:0;transition:opacity 1.6s ease}
+  .hero-bg .slide.on{opacity:1}
+  .hero-scrim{position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(90deg,rgba(233,237,240,.96),rgba(233,237,240,.78) 42%,rgba(233,237,240,.4) 100%)}
+  .hero:not(.has-bg) .hero-scrim{display:none}
+  .hero .wrap{position:relative;z-index:2;width:100%}
+  .hero h1{font-family:var(--serif);font-weight:400;font-size:clamp(2.9rem,7.4vw,5.6rem);line-height:1.04;letter-spacing:-.005em;margin:20px 0 28px;max-width:16ch}
+  .hero p.lede{font-size:clamp(1.05rem,2.1vw,1.28rem);color:var(--mist);max-width:44ch;font-weight:300}
+  .hero .place{margin-top:44px;font-size:.82rem;letter-spacing:.08em;color:var(--mist)}
+  .hero .place i{color:var(--cyan);font-style:normal}
+
+  .rise{opacity:0;transform:translateY(20px);transition:opacity .9s ease,transform .9s cubic-bezier(.2,.7,.2,1)}
+  .rise.in{opacity:1;transform:none}
+  .d1{transition-delay:.1s}.d2{transition-delay:.2s}.d3{transition-delay:.32s}
+
+  .section{padding:120px 0 20px}
+  .section+.section{padding-top:40px}
+  .sec-head{display:flex;align-items:baseline;justify-content:space-between;gap:24px;margin-bottom:56px;flex-wrap:wrap}
+  .sec-head h2{font-family:var(--serif);font-weight:400;font-size:clamp(2rem,4.4vw,3rem);letter-spacing:-.005em}
+
+  .filter{display:flex;gap:4px;flex-wrap:wrap;font-size:.9rem}
+  .filter button{font-family:var(--sans);font-size:.9rem;color:var(--mist);background:none;border:none;cursor:pointer;padding:4px 12px;border-radius:100px;transition:color .2s,background .2s}
+  .filter button:hover{color:var(--petrol)}
+  .filter button.on{color:#fff;background:var(--petrol)}
+
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:52px 38px}
+  .film{display:block}
+  .poster{position:relative;aspect-ratio:2/3;border-radius:4px;overflow:hidden;border:1px solid var(--ink-3);background:linear-gradient(160deg,var(--ink-2),#DCE3E7);transition:transform .45s cubic-bezier(.2,.7,.2,1),border-color .45s,box-shadow .45s}
+  .poster img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1}
+  .poster .ph{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:var(--ink-3)}
+  .poster .ph svg{width:44%;opacity:.5}
+  .poster .open{position:absolute;left:0;right:0;bottom:0;z-index:2;padding:16px;font-size:.82rem;color:#fff;background:linear-gradient(0deg,rgba(5,17,26,.8),transparent);opacity:0;transform:translateY(6px);transition:opacity .4s,transform .4s}
+  .film:hover .poster{transform:translateY(-6px);border-color:var(--petrol);box-shadow:0 16px 40px -20px rgba(18,79,110,.5)}
+  .film:hover .open{opacity:1;transform:none}
+  .meta{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-top:16px}
+  .meta h3{font-family:var(--serif);font-weight:400;font-size:1.35rem}
+  .meta .slate{font-size:.82rem;color:var(--mist);text-align:right;white-space:nowrap}
+  .status{display:inline-block;margin-top:7px;font-size:.78rem;color:var(--cyan)}
+
+  /* Em desenvolvimento — cards horizontais */
+  .dev-list{display:flex;flex-direction:column;gap:26px}
+  .dev-card{display:grid;grid-template-columns:minmax(0,42%) 1fr;gap:0;border:1px solid var(--ink-3);border-radius:6px;overflow:hidden;background:var(--ink-2);transition:border-color .35s,transform .35s,box-shadow .35s}
+  .dev-card:hover{border-color:var(--petrol);transform:translateY(-3px);box-shadow:0 18px 44px -24px rgba(18,79,110,.5)}
+  .dev-photo{position:relative;aspect-ratio:16/10;background:linear-gradient(160deg,var(--ink-2),#DCE3E7);overflow:hidden}
+  .dev-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1}
+  .dev-photo .ph{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:var(--ink-3)}
+  .dev-photo .ph svg{width:22%;opacity:.5}
+  .dev-body{padding:34px 38px;display:flex;flex-direction:column;justify-content:center}
+  .dev-status{font-size:.8rem;color:var(--cyan);margin-bottom:12px}
+  .dev-body h3{font-family:var(--serif);font-weight:400;font-size:clamp(1.5rem,3vw,2rem);line-height:1.1;margin-bottom:10px}
+  .dev-slate{font-size:.86rem;color:var(--mist);margin-bottom:16px}
+  .dev-syn{color:var(--mist);font-size:.98rem;max-width:52ch;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+
+  .about{display:grid;grid-template-columns:1fr 1.25fr;gap:76px;align-items:start}
+  .about .big{font-family:var(--serif);font-weight:400;font-size:clamp(1.6rem,3.2vw,2.2rem);line-height:1.3}
+  .about .big b{font-weight:400;color:var(--cyan)}
+  .about .col p{color:var(--mist);margin-bottom:18px}
+
+  .pf{display:flex;justify-content:space-between;align-items:center;gap:40px;flex-wrap:wrap;background:var(--ink-2);border:1px solid var(--ink-3);border-radius:6px;padding:46px 48px;margin-top:8px}
+  .pf h3{font-family:var(--serif);font-weight:400;font-size:clamp(1.6rem,3.4vw,2.2rem);margin-bottom:8px}
+  .pf p{color:var(--mist);max-width:42ch}
+  .btn{display:inline-flex;align-items:center;gap:10px;font-family:var(--sans);font-size:.92rem;background:var(--petrol);color:#fff;padding:15px 28px;border-radius:100px;transition:background .25s,transform .25s;white-space:nowrap}
+  .btn:hover{background:#0E3F58;transform:translateY(-2px)}
+
+  .contact{display:flex;justify-content:space-between;gap:48px;flex-wrap:wrap;align-items:flex-end}
+  .contact .mail{font-family:var(--serif);font-size:clamp(1.7rem,4.6vw,2.8rem);border-bottom:1px solid var(--ink-3);padding-bottom:8px;transition:border-color .3s}
+  .contact .mail:hover{border-color:var(--petrol)}
+  .contact .meta2{font-size:.92rem;color:var(--mist);line-height:2.1;text-align:right}
+  .contact .meta2 a:hover{color:var(--petrol)}
+
+  footer{border-top:1px solid var(--ink-3);margin-top:120px;padding:40px 0 72px}
+  .foot-in{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:.8rem;color:var(--mist)}
+
+  @media(max-width:860px){.grid{grid-template-columns:repeat(2,1fr)}.about{grid-template-columns:1fr;gap:28px}.dev-card{grid-template-columns:1fr}.dev-photo{aspect-ratio:16/9}}
+  @media(max-width:680px){.nav-links{display:none}.pf{flex-direction:column;align-items:flex-start;padding:34px}.contact .meta2{text-align:left}.sec-head{margin-bottom:38px}}
+  @media(prefers-reduced-motion:reduce){.rise{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="mark" viewBox="0 0 220 220">
+    <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round">
+      <polygon points="214.0,110.0 58.0,200.1 58.0,19.9"/><polygon points="205.0,110.0 62.5,192.3 62.5,27.7"/>
+      <polygon points="196.0,110.0 67.0,184.5 67.0,35.5"/><polygon points="187.0,110.0 71.5,176.7 71.5,43.3"/>
+      <polygon points="178.0,110.0 76.0,168.9 76.0,51.1"/><polygon points="169.0,110.0 80.5,161.1 80.5,58.9"/>
+      <polygon points="160.0,110.0 85.0,153.3 85.0,66.7"/><polygon points="151.0,110.0 89.5,145.5 89.5,74.5"/>
+      <polygon points="142.0,110.0 94.0,137.7 94.0,82.3"/><polygon points="133.0,110.0 98.5,129.9 98.5,90.1"/>
+      <polygon points="124.0,110.0 103.0,122.1 103.0,97.9"/>
+    </g>
+    <circle cx="110" cy="110" r="4.5" fill="currentColor"/>
+  </symbol>
+</svg>
+
+<nav>
+  <div class="wrap nav-in">
+    <a class="wordmark" id="brand" href="index.html"></a>
+    <div class="nav-links">
+      <a href="#obras">obras</a><span class="sep">/</span>
+      <a href="#sobre">sobre</a><span class="sep">/</span>
+      <a href="#trabalhe">trabalhe conosco</a><span class="sep">/</span>
+      <a href="#contato">contato</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="hero">
+  <div class="hero-bg" id="herobg"></div>
+  <div class="hero-scrim"></div>
+  <div class="wrap">
+    <h1 class="rise in d1" id="htag">Pra ser bom na frente e atrás das câmeras</h1>
+    <p class="lede rise in d2" id="hlede">Cinema feito no interior do Brasil.</p>
+    <p class="place rise in d3"><i>●</i>&nbsp;&nbsp;Goiânia · Goiás · Brasil</p>
+  </div>
+</header>
+
+<main>
+  <section class="section" id="obras">
+    <div class="wrap">
+      <div class="sec-head rise">
+        <h2>O que a gente filma</h2>
+        <div class="filter" id="filter">
+          <button data-f="all" class="on">Todos</button>
+          <button data-f="curta">Curtas</button>
+          <button data-f="longa">Longas</button>
+          <button data-f="serie">Séries</button>
+        </div>
+      </div>
+      <div class="grid" id="grid"></div>
+    </div>
+  </section>
+
+  <section class="section" id="desenvolvimento">
+    <div class="wrap">
+      <div class="sec-head rise"><h2>O que a gente desenvolve</h2></div>
+      <div class="dev-list" id="devlist"></div>
+    </div>
+  </section>
+
+  <section class="section" id="sobre">
+    <div class="wrap">
+      <div class="sec-head rise"><h2>estratosfilmes</h2></div>
+      <div class="about">
+        <p class="big rise">Uma produtora de Goiânia que acredita que as histórias do <b>interior</b> merecem a tela grande.</p>
+        <div class="col rise d1">
+          <p>Trabalhamos em ficção e documentário, do roteiro à pós-produção, com raiz firme em Goiás e olhar aberto para o mundo. Cada projeto é construído em camadas — pesquisa, escrita, set, montagem — até virar filme.</p>
+          <p>Atuamos dentro do ecossistema de fomento à cultura brasileira, articulando recursos públicos e parcerias para que cada obra encontre seu caminho até o público.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="trabalhe">
+    <div class="wrap">
+      <div class="pf rise">
+        <div><h3>Baixe nosso portfólio</h3><p>Conheça nossos trabalhos, conquistas e o caminho percorrido até aqui.</p></div>
+        <a class="btn" href="#" id="pfbtn">↓ Baixar portfólio</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contato">
+    <div class="wrap">
+      <div class="sec-head rise"><h2>Vamos fazer um filme</h2></div>
+      <div class="contact rise">
+        <a class="mail" id="cmail" href="#">contato@estratosfilmes.com</a>
+        <div class="meta2" id="cmeta"></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot-in">
+    <span>© 2026 ESTRATOSFILMES · PRODUÇÕES AUDIOVISUAIS</span>
+  </div>
+</footer>
+
+<script>
+  const SEED_SITE={logo:"",logo_size:110,hero_mode:"none",hero_images:[],hero_video:"",tagline:"Pra ser bom na frente e atrás das câmeras",lede:"Cinema feito no interior do Brasil.",email:"contato@estratosfilmes.com",phone:"(62) 98641-9141",whatsapp:"",instagram:"",youtube:"",vimeo:"",linkedin:"",portfolio:""};
+  const SEED_FILMS={items:[]};
+  const MARK='<span class="ph"><svg><use href="#mark"/></svg></span>';
+  const esc=s=>(s||"").replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  const slug=s=>(s||"").toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'');
+  // Otimização: Cloudinary usa sua própria transformação; outras imagens passam pelo wsrv.
+  function thumb(src,w){
+    if(!src) return src;
+    if(src.includes('res.cloudinary.com') && src.includes('/upload/')) return src.replace('/upload/',`/upload/w_${w},f_auto,q_auto/`);
+    if(location.protocol==='file:') return src;
+    const abs=/^https?:/.test(src)?src:(location.origin+(src.charAt(0)==='/'?'':'/')+src);
+    return `https://wsrv.nl/?url=${encodeURIComponent(abs)}&w=${w}&output=webp&q=80&we`;
+  }
+  const img=(src,w,alt)=>`<img src="${thumb(src,w)}" onerror="this.style.display='none'" alt="${esc(alt)}" loading="lazy" decoding="async">`;
+  function tipo(slate){const s=(slate||'').toLowerCase();if(s.includes('série')||s.includes('serie'))return 'serie';if(s.includes('longa'))return 'longa';if(s.includes('curta'))return 'curta';return 'outro';}
+  const isDev=f=>((f.status||'').toLowerCase().includes('desenvolvimento'));
+
+  function renderBrand(s){
+    const size=Math.min(Math.max(parseInt(s.logo_size)||110,28),200);
+    document.getElementById('brand').innerHTML=s.logo
+      ? `<img src="${esc(s.logo)}" alt="estratosfilmes" style="height:${size}px">`
+      : `<svg class="mark"><use href="#mark"/></svg><b>estratosfilmes</b>`;
+  }
+  function renderHero(s){ if(s.tagline) htag.textContent=s.tagline; if(s.lede) hlede.textContent=s.lede; }
+  function renderHeroBg(s){
+    const bg=document.getElementById('herobg'), hero=document.getElementById('hero');
+    const imgs=(s.hero_images||[]).filter(Boolean);
+    if(s.hero_mode==='video' && s.hero_video){ hero.classList.add('has-bg');
+      if(window.innerWidth>=760){ bg.innerHTML=`<video autoplay muted loop playsinline preload="metadata" ${imgs[0]?`poster="${thumb(imgs[0],1600)}"`:''}><source src="${esc(s.hero_video)}" type="video/mp4"></video>`; }
+      else if(imgs[0]){ bg.innerHTML=`<img class="slide on" src="${thumb(imgs[0],900)}" alt="">`; } return; }
+    if(s.hero_mode==='slideshow' && imgs.length){ hero.classList.add('has-bg');
+      bg.innerHTML=imgs.map((src,i)=>`<img class="slide ${i===0?'on':''}" src="${thumb(src,1600)}" alt="">`).join('');
+      const sl=bg.querySelectorAll('.slide');
+      if(sl.length>1 && !matchMedia('(prefers-reduced-motion: reduce)').matches){let i=0;setInterval(()=>{sl[i].classList.remove('on');i=(i+1)%sl.length;sl[i].classList.add('on');},5000);} }
+  }
+  function renderFilms(all){
+    const prod=all.filter(f=>!isDev(f)), dev=all.filter(isDev);
+    document.getElementById('grid').innerHTML=prod.map((f,i)=>`
+      <a class="film rise ${['','d1','d2'][i%3]}" data-tipo="${tipo(f.slate)}" href="obra.html?f=${slug(f.title)}">
+        <div class="poster">${MARK}${ f.poster ? img(f.poster,500,f.title):'' }<span class="open">Ver obra →</span></div>
+        <div class="meta"><h3>${esc(f.title)}</h3>${ f.slate ? `<span class="slate">${esc(f.slate)}</span>`:'' }</div>
+        ${ f.status ? `<span class="status">● ${esc(f.status)}</span>`:'' }
+      </a>`).join('');
+    const dl=document.getElementById('devlist'), devSec=document.getElementById('desenvolvimento');
+    if(dev.length){
+      dl.innerHTML=dev.map(f=>`
+        <a class="dev-card rise" href="obra.html?f=${slug(f.title)}">
+          <div class="dev-photo">${MARK}${ f.poster ? img(f.poster,700,f.title):'' }</div>
+          <div class="dev-body">
+            ${ f.status ? `<span class="dev-status">● ${esc(f.status)}</span>`:'' }
+            <h3>${esc(f.title)}</h3>
+            ${ f.slate ? `<p class="dev-slate">${esc(f.slate)}</p>`:'' }
+            ${ f.synopsis ? `<p class="dev-syn">${esc(f.synopsis)}</p>`:'' }
+          </div>
+        </a>`).join('');
+    } else { devSec.style.display='none'; }
+    observeRises();
+  }
+  function initFilter(){
+    const fbar=document.getElementById('filter');
+    fbar.addEventListener('click',e=>{
+      const b=e.target.closest('button'); if(!b)return;
+      fbar.querySelectorAll('button').forEach(x=>x.classList.remove('on')); b.classList.add('on');
+      const f=b.dataset.f;
+      document.querySelectorAll('#grid .film').forEach(el=>{ el.style.display=(f==='all'||el.dataset.tipo===f)?'':'none'; });
+    });
+  }
+  function renderContact(s){
+    const mail=document.getElementById('cmail');
+    mail.textContent=s.email||SEED_SITE.email; mail.href="mailto:"+(s.email||SEED_SITE.email);
+    const links=[];
+    if(s.phone) links.push(`${esc(s.phone)}${ s.whatsapp ? ` · <a href="${esc(s.whatsapp)}">whatsapp</a>`:''}`);
+    links.push("Goiânia · Goiás");
+    const social=[["instagram",s.instagram],["youtube",s.youtube],["vimeo",s.vimeo],["linkedin",s.linkedin]].filter(x=>x[1]&&x[1]!=="#").map(x=>`<a href="${esc(x[1])}" target="_blank" rel="noopener">${x[0]}</a>`);
+    if(social.length) links.push(social.join(" · "));
+    document.getElementById('cmeta').innerHTML=links.join("<br>");
+    if(s.portfolio&&s.portfolio!=="#") document.getElementById('pfbtn').href=s.portfolio;
+  }
+  let _obs;
+  function observeRises(){
+    _obs=_obs||new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');_obs.unobserve(e.target)}})},{threshold:.12});
+    document.querySelectorAll('.rise:not(.in)').forEach(el=>_obs.observe(el));
+  }
+  async function getJSON(p,fb){try{const r=await fetch(p,{cache:"no-store"});if(!r.ok)throw 0;return await r.json();}catch(e){return fb;}}
+  (async()=>{
+    const site=await getJSON('data/site.json',SEED_SITE);
+    const films=await getJSON('data/films.json',SEED_FILMS);
+    renderBrand(site);renderHero(site);renderHeroBg(site);renderContact(site);
+    renderFilms((films.items||[])); initFilter();
+  })();
+</script>
+</body>
+</html>
